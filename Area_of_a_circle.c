@@ -1,9 +1,8 @@
 #include<stdio.h>
-#define PI 3.14
-int main()
-{
-    float r,area;
-    scanf("%f",&r);
-    area=PI*r*r;
-    printf("%0.2f",area);
+int main(){
+    int r;
+    float a;
+    scanf("%d",&r);
+    a=3.14*r*r;
+    printf("%0.2f",a);
 }
